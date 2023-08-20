@@ -18,19 +18,24 @@ export const Container = styled.div`
   width: 600px;
   display: flex;
   padding: 10px;
-  flex-direction: row;
+  flex-direction: column; // Change here
 `;
-
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
 `;
-
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
+  flex: ${(props) =>
+    props.span
+      ? props.span / 12
+      : "1"}; // If you want to mimic Bootstrap's span
+  width: ${(props) => (props.span ? (props.span / 12) * 100 : "100")}%;
 `;
 
 const Layout = ({ children }) => {
