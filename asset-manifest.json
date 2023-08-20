@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/modern-component-app/static/css/main.073c9b0a.css",
-    "main.js": "/modern-component-app/static/js/main.cfb4a164.js",
+    "main.js": "/modern-component-app/static/js/main.3787bfd7.js",
     "static/js/787.b704a0c5.chunk.js": "/modern-component-app/static/js/787.b704a0c5.chunk.js",
     "index.html": "/modern-component-app/index.html",
     "main.073c9b0a.css.map": "/modern-component-app/static/css/main.073c9b0a.css.map",
-    "main.cfb4a164.js.map": "/modern-component-app/static/js/main.cfb4a164.js.map",
+    "main.3787bfd7.js.map": "/modern-component-app/static/js/main.3787bfd7.js.map",
     "787.b704a0c5.chunk.js.map": "/modern-component-app/static/js/787.b704a0c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cfb4a164.js"
+    "static/js/main.3787bfd7.js"
   ]
 }
