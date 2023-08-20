@@ -1,19 +1,10 @@
-import './App.css';
-import styled from "styled-components";
+import "./App.css";
+import Layout, { Column, Row } from "./Layout";
 
 function App() {
-
-
-  //First Example
-  // const Heading = styled.h1`color:
-  // ${props => props.small ? 'red': 'blue'}
-  // `
-
-  return (
-    <>
-     {/* <Heading small>asasasasa</Heading> */}
-    </>
-  );
+  return <Layout>
+    
+  </Layout>;
 }
 
 export default App;
