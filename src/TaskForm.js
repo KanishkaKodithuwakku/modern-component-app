@@ -109,7 +109,7 @@ const TaskForm = ({ handleAddTodos, handleError }) => {
         <Button primary onClick={handleSubmit}>
           Add Task
         </Button>
-        <Button secondary>Secondary Button</Button>
+        {/* <Button secondary>Secondary Button</Button> */}
       </Column>
     </Column>
   );
